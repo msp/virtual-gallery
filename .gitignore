@@ -46,3 +46,7 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
+
+# msp
+virtual-gallery-standalone.app
+virtual-gallery-webgl
