@@ -27,19 +27,11 @@ public class Conductor : MonoBehaviour
         if (!helmController.IsNoteOn(note))
         {
             helmController.NoteOn(note, velocity, duration);
-        }
-
+        }       
+        
         // helmController.SetParameterPercent(AudioHelm.Param.kFilterEnvelopeDepth, (Time.time * 0.3f)/100);
-
 
         beam.spotAngle = Time.time * 0.1f;
         beam.UpdateAfterManualPropertyChange();
-
-
-
-
-
-
-
     }
 }
