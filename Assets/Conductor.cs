@@ -31,7 +31,7 @@ public class Conductor : MonoBehaviour
         
         // helmController.SetParameterPercent(AudioHelm.Param.kFilterEnvelopeDepth, (Time.time * 0.3f)/100);
 
-        beam.spotAngle = Time.time * 0.1f;
-        beam.UpdateAfterManualPropertyChange();
+        // beam.spotAngle = Time.time * 0.1f;
+        // beam.UpdateAfterManualPropertyChange();
     }
 }
